@@ -1,0 +1,30 @@
+public class HelloWorld
+{
+    // Instanzen variablen (Keine)
+    
+
+    /**
+     * Konstruktor für Klasse HelloWorld
+     * Kann leer bleiben, kann aber auch direkt "Hallo Welt" ausgeben, ohne Methodenaufruf.
+     */
+    public HelloWorld()
+    {
+        // Instanzvariablen initialisieren (Keine)
+        
+        // Beispiel
+        // System.out.println("Hallo Welt!");
+    }
+
+    /**
+     * Öffentliche Methode helloworld
+     * 
+     * @param  kein Parameter
+     * @return kein Rückgabewert außer
+     * Methode gibt beim Aufrufen "Hallo Welt!" aus.
+     */
+     
+    public void helloworld()
+    {
+       System.out.println("Hallo Welt!");
+    }
+}
