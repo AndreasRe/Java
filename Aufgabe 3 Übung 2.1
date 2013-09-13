@@ -1,0 +1,31 @@
+public class Aufgabe21Variablen
+{
+    byte b;
+    long l = 123456123456L;
+    float f = 1.123455f;
+    char c = 'H';
+    
+
+    public Aufgabe21Variablen()
+    {
+    }
+
+    public void aufgabe21a1()
+    {
+        System.out.println("Char: "+c+"\nByte: "+b+"\nFloat: "+f+"\nLong: "+l);
+    }
+    
+    public void aufgabe21a2()
+    {
+        System.out.println("byte: 8Bit	-128...127\nshort: 16Bit -32.768...32.767\nint: 32Bit -2.147.483.648...2.147.483.647\nlong: 64Bit -9.223.372.036.854.775.808…9223372036854770000\nfloat: 32Bit +/-1,4E-45...+/-3,4E+38\ndouble: 64Bit +/-4,9E-324...+/-1,7E+308\nboolean: JVM-Spezifisch true/false \nchar: 16Bit 0...65.535 (z.B.'A')");
+    }
+    
+    public void aufgabe21a345()
+    {
+        int erg1 = 1/2; // Int ist nicht in der Lage einen Flieskommawert auszugben.
+        float erg2 = 1/2; // Deswegen müssen wir Int in Float ändern
+        float erg3 = 1/2f; //  und ein f dahinter setzen.
+        System.out.println("\n"+erg1+"\n"+erg2+"\n"+erg3);    
+    }
+    
+}
